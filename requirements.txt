@@ -1,0 +1,7 @@
+# Core dependencies
+torch         # PyTorch must be installed separately using official instructions
+plotly==5.24.1
+nbformat==5.10.4
+
+# Quantum VAE dependencies
+git+https://github.com/nicola-decao/s-vae-pytorch.git@master#egg=hyperspherical_vae
