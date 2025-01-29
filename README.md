@@ -174,7 +174,9 @@ where:
 
 #### **2. Energy Decomposition** (Separates "bias" and "variance" effects in manifold estimation)
 
-$$E_0(x) = \underbrace{\frac{1}{2} \|A(\psi_0(x)) - x\|^2}_{\text{Bias}} + \underbrace{\frac{1}{2} \sigma^2(\psi_0(x))}_{\text{Variance}}$$
+$$
+E_0(x) = \underbrace{\frac{1}{2} \|A(\psi_0(x)) - x\|^2}_{\text{Bias}} + \underbrace{\frac{1}{2} \sigma^2(\psi_0(x))}_{\text{Variance}}
+$$
 
 where:
 - **Bias**: Measures the deviation of quantum representation from the actual data point.
