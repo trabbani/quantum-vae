@@ -187,7 +187,12 @@ where:
 
 #### **3. Quantum Metric** (Extracts Intrinsic Dimension from Spectral Gaps)
 
-$$g_{\mu\nu}(x) = 2 \sum_{n=1}^{N-1} \text{Re}\left\{ \frac{\langle \psi_0(x)|A_\mu|\psi_n(x) \rangle \langle \psi_n(x)|A_\nu|\psi_0(x) \rangle}{E_n(x) - E_0(x)} \right\}$$
+$$
+g_{\mu\nu}(x) = 2 \sum_{n=1}^{N-1} \text{Re}\left( 
+\frac{\langle \psi_0(x)|A_\mu|\psi_n(x) \rangle \langle \psi_n(x)|A_\nu|\psi_0(x) \rangle}{E_n(x) - E_0(x)} 
+\right)
+$$
+
 
 where:
 - $g(x)$ is a **local Riemannian metric** induced by quantum geometry.
