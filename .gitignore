@@ -78,3 +78,4 @@ experiments/
 
 # Colab
 colab/
+.env
